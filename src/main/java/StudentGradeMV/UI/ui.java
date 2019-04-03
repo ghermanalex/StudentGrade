@@ -207,7 +207,7 @@ public class ui {
                 System.out.println("1a--Adaugare student         1b--Adaugare tema");
                 System.out.println("2a--Stergere student         2b--Stergere tema");
                 System.out.println("3a--Actualizare student      3b--Prelungire termen tema");
-                System.out.println("4a--Afisare studenti         4b--Afisare studenti");
+                System.out.println("4a--Afisare studenti         4b--Afisare teme");
                 System.out.println("5--Adaugare nota");
                 System.out.println("6--Afisare note");
                 System.out.println("7--Stop");
