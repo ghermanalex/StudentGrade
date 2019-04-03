@@ -32,13 +32,6 @@ public class AppTest
     private String dirPath = System.getProperty("user.dir");
 
     @Test
-    public void shouldAnswerWithTrue()
-    {
-
-        assertTrue( true );
-    }
-
-    @Test
     /*
      * Adding valid student
      * Adding duplicate valid student
@@ -193,7 +186,7 @@ public class AppTest
     }
 
     @Test
-    public void addTheme() {
+    public void addAssignment() {
         TemaLabRepo repo = new TemaLabRepo(new TemaLabValidator(),dirPath + "\\data\\TemaLaboratorXML.xml",false);
         ServiceTeme srv = new ServiceTeme(repo);
 
