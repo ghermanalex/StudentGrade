@@ -5,7 +5,7 @@ import StudentGradeMV.Exceptions.ValidatorException;
 
 public class NotaValidator implements IValidator<Nota> {
 
-    public void validate(Nota n) throws ValidatorException {
+    public String validate(Nota n) throws ValidatorException {
         String errors="";
         if(n.getId()<=0){
             errors+="Id invalid\n";
@@ -22,5 +22,6 @@ public class NotaValidator implements IValidator<Nota> {
         if (errors.length()!=0){
             throw  new ValidatorException(errors);
         }
+        return errors;
     }
 }

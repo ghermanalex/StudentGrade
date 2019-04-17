@@ -31,16 +31,14 @@ public abstract class AbstractCrudRepo<ID,E extends HasId<ID>> implements Repo<I
         return repo.values();
     }
     @Override
-    public E save(E entity) throws ValidatorException {
-        if(entity==null){
-            throw new IllegalArgumentException("Entity can not be null!\n");
+    public E save(E el) throws ValidatorException {
+        String msg=validator.validate(el);
+        if(msg.equals("")){
+            repo.putIfAbsent(el.getId(),el);
+            return findOne(el.getId());
         }
-        try{
-            validator.validate(entity);
-            return repo.putIfAbsent(entity.getId(),entity);
-        }catch(ValidatorException ex){
-            throw new ValidatorException(ex.getMessage());
-        }
+        else
+            throw new ValidatorException(msg);
     }
     @Override
     public E delete(ID id){

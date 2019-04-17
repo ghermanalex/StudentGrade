@@ -1,1 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><inbox><tema><id>1</id><descriere>2</descriere><saptamanaLimita>5</saptamanaLimita><saptamanaPredarii>5</saptamanaPredarii></tema></inbox>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tema>
+    <tema id="-1">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>10</saptamanaLimita>
+        <saptamanaPredarii>1</saptamanaPredarii>
+    </tema>
+    <tema id="1">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>1</saptamanaLimita>
+        <saptamanaPredarii>10</saptamanaPredarii>
+    </tema>
+    <tema id="18">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>6</saptamanaLimita>
+        <saptamanaPredarii>1</saptamanaPredarii>
+    </tema>
+    <tema id="20">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>0</saptamanaLimita>
+        <saptamanaPredarii>12</saptamanaPredarii>
+    </tema>
+    <tema id="10">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>7</saptamanaLimita>
+        <saptamanaPredarii>-1</saptamanaPredarii>
+    </tema>
+    <tema id="123">
+        <descriere>fgdfgd</descriere>
+        <saptamanaLimita>12</saptamanaLimita>
+        <saptamanaPredarii>12</saptamanaPredarii>
+    </tema>
+    <tema id="13">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>0</saptamanaLimita>
+        <saptamanaPredarii>11</saptamanaPredarii>
+    </tema>
+    <tema id="14">
+        <descriere>dfgfdgfdg</descriere>
+        <saptamanaLimita>0</saptamanaLimita>
+        <saptamanaPredarii>12</saptamanaPredarii>
+    </tema>
+</tema>

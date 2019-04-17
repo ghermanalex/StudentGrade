@@ -1,1 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><inbox><student><id>2</id><nume>dragos</nume><grupa>932</grupa><email>dragos</email><profesor>coroiu</profesor></student><student><id>3</id><nume>alex</nume><grupa>932</grupa><email>alex</email><profesor>cori</profesor></student></inbox>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<inbox>
+    <student id="">
+        <nume>ADSA</nume>
+        <grupa>933</grupa>
+        <email>el@.com</email>
+        <profesor>profgsn</profesor>
+    </student>
+    <student id="1">
+        <nume>asd</nume>
+        <grupa>935</grupa>
+        <email>easd@.com</email>
+        <profesor>sdfds</profesor>
+    </student>
+    <student id="2b!">
+        <nume>asd</nume>
+        <grupa>933</grupa>
+        <email>el@.com</email>
+        <profesor>1fsd</profesor>
+    </student>
+    <student id="2">
+        <nume>sdf</nume>
+        <grupa>932</grupa>
+        <email>sdf@.com</email>
+        <profesor>asdsdfsd</profesor>
+    </student>
+    <student id="3">
+        <nume>dad</nume>
+        <grupa>933</grupa>
+        <email>asd@.com</email>
+        <profesor>asda</profesor>
+    </student>
+    <student id="4">
+        <nume>fsdf</nume>
+        <grupa>932</grupa>
+        <email>rcom</email>
+        <profesor>fdf</profesor>
+    </student>
+    <student id="5">
+        <nume>fds</nume>
+        <grupa>1932</grupa>
+        <email>ret@com</email>
+        <profesor>fdf</profesor>
+    </student>
+    <student id="6">
+        <nume>fds</nume>
+        <grupa>933</grupa>
+        <email/>
+        <profesor>ASD</profesor>
+    </student>
+    <student id="7">
+        <nume/>
+        <grupa>932</grupa>
+        <email>re.com</email>
+        <profesor>fdf</profesor>
+    </student>
+    <student id="8">
+        <nume>nameH</nume>
+        <grupa>933</grupa>
+        <email>el@.com</email>
+        <profesor>profg</profesor>
+    </student>
+    <student id="2dfgd">
+        <nume>name</nume>
+        <grupa>933</grupa>
+        <email>el@.com</email>
+        <profesor>profggg</profesor>
+    </student>
+</inbox>

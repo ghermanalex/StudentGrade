@@ -33,7 +33,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
 
         try{
             if (srv.find(student2.getId()) == null)
@@ -41,7 +41,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(2,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 
     @Test
@@ -60,7 +60,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 
     @Test
@@ -97,7 +97,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 
     @Test
@@ -134,7 +134,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 
     @Test
@@ -187,7 +187,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 
     @Test
@@ -224,7 +224,7 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 
     @Test
@@ -261,6 +261,6 @@ public class AddStudent {
         }catch (ValidatorException e) {
             e.printStackTrace();
         }
-        assertEquals(1,srv.getSize());
+        assertEquals(11,srv.getSize());
     }
 }
